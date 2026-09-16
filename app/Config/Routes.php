@@ -14,3 +14,5 @@ $routes->delete('akun1/delete/(:segment)', 'Akun1::delete/$1');
 
 //$routes->resource() pada app/Config/Routes.php agar secara otomatis mendaftarkan 7 rute RESTful (index, new, create, edit, update, delete, show): RESTful Resource Controller untuk Akun 2
 $routes->resource('akun2', ['controller' => 'Akun2']);
+
+$routes->resource('akun3', ['controller' => 'Akun3']);

@@ -10,7 +10,7 @@
         <ul class="dropdown-menu">
             <li><a class="nav-link" href="<?= site_url('akun1') ?>">Kode Akun 1</a></li>
             <li><a class="nav-link" href="<?= site_url('akun2') ?>">Kode Akun 2</a></li>
-            <li><a class="nav-link" href="#">Kode Akun 3</a></li>
+            <li><a class="nav-link" href="<?= site_url('akun3') ?>">Kode Akun 3</a></li>
         </ul>
     </li>
 
